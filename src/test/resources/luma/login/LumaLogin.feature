@@ -1,5 +1,6 @@
 Feature: Login functionality
 
+  @smoketest @regression @happyPath
   Scenario: Positive scenario
     Given user navigates to luma page
     When user is on main page user validates the title of the webpage
